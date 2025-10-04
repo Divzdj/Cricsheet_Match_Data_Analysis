@@ -1,0 +1,31 @@
+# Standard Python/Environment Files
+
+# Ignore compiled Python files and virtual environment directories
+__pycache__/
+*.pyc
+venv/
+env/
+
+# Large Data Files (Crucial: These must NOT be pushed to GitHub)
+
+# Folders containing uncompressed/raw JSON
+data/raw_json/
+
+# Compressed/Archive Data (Crucial addition for zips)
+*.zip
+*.gz
+*.tgz
+*.rar
+*.7z
+data/raw_json_zips/ # Explicitly ignore the folder containing the compressed files
+
+# Database Files
+
+# Ignore all SQLite database files, specifically the one created by transform_load.py
+*.db
+cricket_data.db
+
+# Results and Output
+
+# Ignore all generated result summaries and visualization images
+data/results/
