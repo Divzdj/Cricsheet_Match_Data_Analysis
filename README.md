@@ -1,4 +1,4 @@
-*Global Cricket Match Data Analysis (2000 - Present)*
+***Global Cricket Match Data Analysis (2000 - Present)***
 **Project Overview**
 This repository hosts the Extract, Transform, and Load (ETL) pipeline, analytical SQL queries, and Exploratory Data Analysis (EDA) visualizations for a comprehensive analysis of global cricket match data sourced from Cricsheet. The project processes data across four major formats: Test, One Day Internationals (ODI), Twenty20 Internationals (T20I), and the Indian Premier League (IPL).
 
