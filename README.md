@@ -49,16 +49,17 @@ pip install pandas sqlalchemy matplotlib seaborn
 3.Data: Ensure you have the Cricsheet match data (JSON files) placed in the appropriate format-specific subdirectories within data/raw_json/.
 
 Execution Steps
+
 1.Initialize the Environment (assuming you have your data in the correct local structure):
 
-# 1. Initialize Git and ensure correct branch name
+ 1. Initialize Git and ensure correct branch name
 git init
 git branch -M main
 
-# 2. Link to your SSH remote (replace with your personal link)
+2. Link to your SSH remote (replace with your personal link)
 git remote add origin git@github.com:Divzdj/Cricsheet_Match_Data_Analysis.git
 
-# 3. Commit and Overwrite (this ensures the repo is clean)
+3. Commit and Overwrite (this ensures the repo is clean)
 git add .
 git commit -m "Final project file structure and .gitignore added."
 git push --force origin main
