@@ -1,10 +1,10 @@
-Global Cricket Match Data Analysis (2000 - Present)
-Project Overview
+*Global Cricket Match Data Analysis (2000 - Present)*
+**Project Overview**
 This repository hosts the Extract, Transform, and Load (ETL) pipeline, analytical SQL queries, and Exploratory Data Analysis (EDA) visualizations for a comprehensive analysis of global cricket match data sourced from Cricsheet. The project processes data across four major formats: Test, One Day Internationals (ODI), Twenty20 Internationals (T20I), and the Indian Premier League (IPL).
 
 The primary goal is to transform raw JSON match data into a structured SQLite database, run complex analytical queries, and generate visual insights into historical trends, player performance, and match outcomes.
 
-Repository Structure and Key Files
+🛠️ Repository Structure and Key Files
 The project is structured to separate the data processing, analysis, and visualization logic.
 
 File/Folder
@@ -35,13 +35,14 @@ data/raw_json_zips/
 
 Placeholder directory for compressed raw data (ignored by Git).
 
-Getting Started
+🚀 Getting Started
 Prerequisites
 Python 3.x
 
 Required Libraries:
 
 pip install pandas sqlalchemy matplotlib seaborn
+
 
 Data: Ensure you have the Cricsheet match data (JSON files) placed in the appropriate format-specific subdirectories within data/raw_json/.
 
@@ -58,11 +59,13 @@ git remote add origin git@github.com:Divzdj/Cricsheet_Match_Data_Analysis.git
 # 3. Commit and Overwrite (this ensures the repo is clean)
 git add .
 git commit -m "Final project file structure and .gitignore added."
-git push --force origin main 
+git push --force origin main
+
 
 Run the ETL Process (Database Creation):
 
 python transform_load.py
+
 
 This step creates the cricket_data.db file.
 
@@ -70,16 +73,17 @@ Run the Visualization Process (Generate Plots):
 
 python data_visuals.py
 
+
 This step generates 10 PNG image files in the data/results/visuals folder.
 
-Analytical Results and Interactive Dashboard
+📈 Analytical Results and Interactive Dashboard
 The most significant findings from this analysis have been compiled into an interactive Tableau dashboard, allowing for detailed exploration of match trends, venue performance, and player statistics across all formats.
 
 Click here to view the live interactive dashboard:
 
 Global Cricket Performance Analysis (2000 - Present) - Tableau Dashboard
 
-Data Source & Licensing
+📜 Data Source & Licensing
 The raw data used for this project is sourced from:
 
 Cricsheet: Providing comprehensive ball-by-ball data for cricket matches globally.
