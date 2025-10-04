@@ -85,4 +85,5 @@ The most significant findings from this analysis have been compiled into an inte
 
 Click here to view the live interactive dashboard:
 
-Global Cricket Performance Analysis (2000 - Present) - Tableau Dashboard
+[Global Cricket Performance Analysis (2000 - Present) - Tableau Dashboard](https://public.tableau.com/app/profile/divya.joseph8082/viz/GlobalCricketPerformanceAnalysis2000Present/Dashboard1)
+
